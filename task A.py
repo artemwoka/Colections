@@ -1,0 +1,5 @@
+input() 
+a = input().split()
+a = ' '.join(a)
+print(a)
+print(a)  

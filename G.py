@@ -1,6 +1,5 @@
 n = int(input())
 list_1 = [int(x) for x in input().split()]
-list_2 = [int(x) for x in list_1 if abs(x) % 2 == 0]
 
 for i in range(0, n):
     if list_1[i] % 2 == 0:
